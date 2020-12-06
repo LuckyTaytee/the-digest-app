@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/topic_tech"
+        android:orderInCategory="100"
+        android:title="TECH" />
+    <item
+        android:id="@+id/topic_sport"
+        android:orderInCategory="100"
+        android:title="SPORT"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/topic_business"
+        android:orderInCategory="100"
+        android:title="BUSINESS"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/topic_all"
+        android:orderInCategory="1"
+        android:title="ALL TOPIC"
+        app:showAsAction="never" />
+</menu>
